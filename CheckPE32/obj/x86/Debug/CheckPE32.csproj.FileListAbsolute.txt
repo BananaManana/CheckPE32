@@ -1,0 +1,17 @@
+C:\Users\Банана\Google Диск\МСЗКИ\CheckPE32\CheckPE32\bin\Debug\CheckPE32.exe
+C:\Users\Банана\Google Диск\МСЗКИ\CheckPE32\CheckPE32\bin\Debug\CheckPE32.pdb
+C:\Users\Банана\Google Диск\МСЗКИ\CheckPE32\CheckPE32\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Банана\Google Диск\МСЗКИ\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.Form1.resources
+C:\Users\Банана\Google Диск\МСЗКИ\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.Properties.Resources.resources
+C:\Users\Банана\Google Диск\МСЗКИ\CheckPE32\CheckPE32\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Банана\Google Диск\МСЗКИ\CheckPE32\CheckPE32\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Банана\Google Диск\МСЗКИ\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.exe
+C:\Users\Банана\Google Диск\МСЗКИ\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.pdb
+C:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.exe
+C:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.pdb
+C:\Users\Banana\CheckPE32\CheckPE32\bin\Debug\CheckPE32.exe
+C:\Users\Banana\CheckPE32\CheckPE32\bin\Debug\CheckPE32.pdb
+C:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.Form1.resources
+C:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.Properties.Resources.resources
+C:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.csproj.GenerateResource.Cache
+c:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.csprojResolveAssemblyReference.cache
