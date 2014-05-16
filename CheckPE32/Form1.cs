@@ -38,7 +38,7 @@ namespace CheckPE32
             };
             if (isNotSigned)
             {
-                return false; //если файл не полписан
+                return false; //если файл не подписан
             }
             else
             {
@@ -48,9 +48,11 @@ namespace CheckPE32
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string fileName = textBox1.Text;
+            string fileExt = fileName.Substring(fileName.LastIndexOf(".") + 1);
             if (textBox1.TextLength < 1)
             {
-                MessageBox.Show("Путь к файлу не указан", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Укажите путь к файлу", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else {
                 if (CheckFile(textBox1.Text))

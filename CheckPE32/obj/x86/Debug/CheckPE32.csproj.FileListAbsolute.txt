@@ -15,3 +15,11 @@ C:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.Form1.resources
 C:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.Properties.Resources.resources
 C:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.csproj.GenerateResource.Cache
 c:\Users\Banana\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.csprojResolveAssemblyReference.cache
+C:\CheckPE32\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.exe
+C:\CheckPE32\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.pdb
+C:\CheckPE32\CheckPE32\CheckPE32\bin\Debug\CheckPE32.exe
+C:\CheckPE32\CheckPE32\CheckPE32\bin\Debug\CheckPE32.pdb
+C:\CheckPE32\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.csprojResolveAssemblyReference.cache
+C:\CheckPE32\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.Form1.resources
+C:\CheckPE32\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.Properties.Resources.resources
+C:\CheckPE32\CheckPE32\CheckPE32\obj\x86\Debug\CheckPE32.csproj.GenerateResource.Cache
