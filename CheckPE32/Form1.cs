@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
+
 
 namespace CheckPE32
 {
@@ -50,6 +52,11 @@ namespace CheckPE32
             return -1;
         }
 
+        /// <summary>
+        /// функция возвращает true, если файл с именем fileName подписан, и false  - если нет
+        /// </summary>
+        /// <param name="fileName">путь к файлу</param>
+        /// <returns>функция возвращает true, если файл с именем fileName подписан, и false  - если нет</returns>
         public bool CheckFile(string fileName)
         {
             byte[] data = System.IO.File.ReadAllBytes(textBox1.Text);
@@ -91,10 +98,22 @@ namespace CheckPE32
                 if (CheckFile(textBox1.Text))
                 {
                     MessageBox.Show("Модуль PE32 имеет подпись", "CheckPE32", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    X509Certificate theSigner = X509Certificate.CreateFromSignedFile(textBox1.Text);
+                    X509Certificate2 theCertificate = new X509Certificate2(theSigner);
+                    System.IO.StreamWriter textFile = new System.IO.StreamWriter("SertificateInfo.txt");
+                    textFile.WriteLine("Проверяемый файл: " + textBox1.Text);
+                    textFile.WriteLine("Серийный номер сертификата: " + theCertificate.SerialNumber);
+                    textFile.WriteLine("Информация о владельце: " + theCertificate.SubjectName.Name);
+                    textFile.WriteLine("Действителен с: " + theCertificate.GetEffectiveDateString());
+                    textFile.WriteLine("Истекает: " + theCertificate.GetExpirationDateString());
+                    textFile.WriteLine("Центр сертификации, выдавший сертификат: " + theCertificate.Issuer);
+                    textFile.Close();
+                    System.Diagnostics.Process.Start("notepad.exe", "SertificateInfo.txt");
                 }
                 else
                 {
                     MessageBox.Show("Модуль PE32 не подписан!", "CheckPE32", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 }
             }
         }
